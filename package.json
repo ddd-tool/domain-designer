@@ -1,0 +1,30 @@
+{
+  "name": "domain-designer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "verify": "vue-tsc --noEmit",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.1.1",
+    "@tauri-apps/plugin-shell": "^2.0.1",
+    "@webcontainer/api": "1.5.1-internal.1",
+    "@xterm/xterm": "^5.5.0",
+    "vue": "^3.5.13",
+    "vue-fn": "0.0.3-aplha.33"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.1.0",
+    "@types/node": "^22.10.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "5.6.2",
+    "vite": "^5.4.11",
+    "vue-tsc": "2.0.29"
+  },
+  "packageManager": "pnpm@9.0.6+sha512.f6d863130973207cb7a336d6b439a242a26ac8068077df530d6a86069419853dc1ffe64029ec594a9c505a3a410d19643c870aba6776330f5cfddcf10a9c1617"
+}
